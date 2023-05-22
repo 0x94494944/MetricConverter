@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5px;
+  font-family: sans-serif;
+  background-color: #1c1c1c;
+}
+
+.parent-center {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 22rem;
+  height: 25rem;
+}
+
+.top {
+  width: 100%;
+  min-height: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  font-weight: 800;
+  background-image: linear-gradient(
+    260deg,
+    hsl(217deg 84% 55%) 0%,
+    hsl(216deg 83% 55%) 16%,
+    hsl(214deg 82% 56%) 24%,
+    hsl(213deg 81% 56%) 30%,
+    hsl(211deg 80% 56%) 35%,
+    hsl(209deg 79% 56%) 40%,
+    hsl(208deg 78% 56%) 45%,
+    hsl(205deg 77% 56%) 50%,
+    hsl(203deg 76% 56%) 55%,
+    hsl(201deg 76% 56%) 60%,
+    hsl(199deg 75% 55%) 65%,
+    hsl(196deg 74% 55%) 70%,
+    hsl(194deg 74% 54%) 76%,
+    hsl(191deg 73% 53%) 84%,
+    hsl(189deg 73% 53%) 100%
+  );
+}
+
+.title {
+  font-size: 1rem;
+}
+
+#number {
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+  width: 100%;
+  font-size: 5rem;
+  font-weight: 800;
+  background: transparent;
+  border: none;
+}
+
+input[type="text"] {
+  background: transparent;
+  border: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+*:focus {
+  outline: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.bottom {
+  padding: 1rem 0;
+
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  color: #ffffff;
+  background-color: #1f2937;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.sub-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.data {
+  color: #d2d2d2;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+}
